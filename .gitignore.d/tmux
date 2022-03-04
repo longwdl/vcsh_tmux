@@ -1,5 +1,6 @@
 *
 !.tmux.conf
+!.config/powerline/themes/tmux/default.json
 !.gitignore.d/
 !.gitignore.d/tmux
 !.LICENSES.d/
