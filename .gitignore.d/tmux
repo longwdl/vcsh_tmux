@@ -1,0 +1,6 @@
+*
+!.tmux.conf
+!.gitignore.d/
+!.gitignore.d/tmux
+!.LICENSES.d/
+!.LICENSES.d/tmux
