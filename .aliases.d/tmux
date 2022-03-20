@@ -1,0 +1,13 @@
+ntmux(){
+	local _name=${1:-new}
+
+	# Create session if not exist
+	if ! tmux list-sessions 2>/dev/null|cut -d: -f1|grep -x "$_name"; then
+		tmux new-session -d -s "$_name"
+		tmux new-window -d
+		tmux new-window -d
+		tmux new-window -d
+	fi
+
+	tmux attach-session -dt "$_name"
+}
