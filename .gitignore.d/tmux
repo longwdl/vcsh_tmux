@@ -1,7 +1,10 @@
 *
 !.tmux.conf
+!.aliases.d/
 !.aliases.d/tmux
 !.config/powerline/themes/tmux/default.json
+!.setup.d/
+!.setup.d/20-tmux
 !.gitignore.d/
 !.gitignore.d/tmux
 !.LICENSES.d/
